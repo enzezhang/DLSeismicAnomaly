@@ -54,6 +54,14 @@ cd ../
 bash inference_weiyuan.sh resnet34_SGD_0.003_seed1_weight_decay_0.005_1-3_droprate_May24.tar
 bash inference_changning.sh resnet34_SGD_0.003_seed1_weight_decay_0.005_1-3_droprate_May24.tar
 ```
+This step will generate abnormal timings for both Weiyuan and Changning.
 ## Step 5: extracting abnormal locations.
+```Shell
+cd ../post_process
+bash post_processing_changning.sh abnormal_timings_for_changning
+bash post_processing_weiyuan_six_hour.sh abnormal_timings_for_weiyuan
+```
+abnormal_timings_for_changning and abnormal_timings_for_weiyuan need to be specified.
+
 
 
