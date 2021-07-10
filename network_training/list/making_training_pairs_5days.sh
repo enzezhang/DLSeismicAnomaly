@@ -1,7 +1,7 @@
 
 label=$1
 para_file=para.ini
-para_py=./script/parameters.py
+para_py=../parameters.py
 data_path=../../density_map_changning
 
 work_root=$(python2 ${para_py} -p ${para_file} working_root)
