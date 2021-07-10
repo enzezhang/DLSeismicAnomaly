@@ -17,7 +17,8 @@ bash Anaconda2-2019.10-Linux-x86_64.sh
 conda install gdal
 ```
 There could be some library issues.
-
+## Install dependencies
+pip install tensorboardX tqdm torch torchvision
 
 ## Step 1: making earthquake distribution maps.
 
