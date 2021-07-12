@@ -1,10 +1,6 @@
 data_dir=../density_map_changning
 
-if [ -f ./changning_original_images.txt ];then
-	echo "iamge list exist"
-else
-	find ${data_dir}/*lola.tif > ./changning_original_images.txt 
-fi
+find ${data_dir}/*lola.tif > ./changning_original_images.txt 
 
 if [ -d ${data_dir}/aug ];then
 	echo "aug exist"
