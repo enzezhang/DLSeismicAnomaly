@@ -24,7 +24,7 @@ pip install tensorboardX tqdm torch torchvision torchsummary pyproj scipy imgaug
 
 ## Step 0: change dir
 
-change the working_root data_weiyuan, and data_changning in file network_training/para.ini
+change home dir in file network_training/para.ini
 
 ## Step 1: making earthquake distribution maps.
 
