@@ -2,7 +2,7 @@
 
 
 para_file=para.ini
-para_py=./script/parameters.py
+para_py=parameters.py
 work_root=$(python2 ${para_py} -p ${para_file} working_root)
 
 lr=0.003
