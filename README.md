@@ -20,7 +20,7 @@ conda install gdal
 ```
 There could be some library issues.
 ## Install dependencies
-pip install tensorboardX tqdm torch torchvision torchsummary pyproj scipy imgaug rasterio
+pip install tensorboardX tqdm torch torchvision torchsummary pyproj scipy imgaug==0.2.5 rasterio
 
 ## Step 0: change dir
 
