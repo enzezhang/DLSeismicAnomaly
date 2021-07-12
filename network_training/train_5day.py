@@ -23,7 +23,6 @@ import sys
 from dataset_EQ_distribution_5days import *
 import parameters
 from model.resnet import *
-from torchsummary import summary
 
 def sigmoid(z):
     return 1 / (1 + np.exp(-z))
